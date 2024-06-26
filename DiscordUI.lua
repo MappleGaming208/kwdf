@@ -54,5 +54,4 @@ page1:Button({
 		end)
 
 	end,
-  -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
