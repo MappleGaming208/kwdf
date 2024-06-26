@@ -44,7 +44,7 @@ Label1 = page1:Label({
 -- a:Update("Xova's Team Best UI")
 
 --Create Button--
-
+--[[
 page1:Button({
 	Title = "Refresh Label",
 	Mode = "Defualt",
@@ -55,3 +55,4 @@ page1:Button({
 
 	end,
 })
+]]--
