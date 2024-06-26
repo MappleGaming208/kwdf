@@ -25,7 +25,7 @@ a = page:Label({
 -- Functions
 -- a:Update("Xova's Team Best UI")
 page:Button({
-	Title = "Refresh Label",
+	Title = "MobileFly",
 	Mode = "Defualt",
 	AutoSize = true,
 	callback = function()
