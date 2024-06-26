@@ -50,6 +50,8 @@ page1:Button({
 	Mode = "Defualt",
 	AutoSize = true,
 	callback = function()
+	Library:Notification("Notification", "Executed!", "Okay!")
+		end)
 
 	end,
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
