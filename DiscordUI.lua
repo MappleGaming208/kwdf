@@ -10,10 +10,10 @@ _G.Settings = {
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
 local main = Library:create({
-	Name = "Xova's Team"
+	Name = "RoyalUI"
 })
 local tab = main:createtab({
-	Name = "Tab"
+	Name = "Scripts"
 })
 local section = tab:createsection({
 Name = "Section"
