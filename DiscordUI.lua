@@ -1,8 +1,5 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/main/Discord%20Ui%20Lib/Example.lua"))()
 
-
-
---[[Currently Disabled
+--[[Currently enabled]]--
 --Made By MappleGaming208--
 --Loadstring & Toggle UI--
 --RoyalUI By MappleGaming208--
@@ -21,24 +18,24 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mappl
 --Create UI Library Window--
 
 local main = Library:create({
-	Name = "RoyalUI"
+	Name = "Xova's Team"
 })
 
 --Create Tab--
 
-local ScriptsTab = main:createtab({
-	Name = "Scripts"
+local tab = main:createtab({
+	Name = "Tab"
 })
 
 --Create Section--
 
-local GamesSection = ScriptsTab:createsection({
-Name = "Games"
+local section = tab:createsection({
+Name = "Section"
 })
 
 --create page--
 
-local page1 = GamesTab:createpage()
+local page = section:createpage()
 
 --create label--
 --[[ currently disabled
@@ -48,5 +45,5 @@ Label1 = page1:Label({
 -- Functions
 -- a:Update("Xova's Team Best UI")
 ]]--
- --[[]]--
+
 
