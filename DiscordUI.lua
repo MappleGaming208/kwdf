@@ -21,19 +21,19 @@ local main = Library:create({
 
 --Create Tab--
 
-local Scripts = main:createtab({
+local ScriptsTab = main:createtab({
 	Name = "Scripts"
 })
 
 --Create Section--
 
-local Games = Scripts:createsection({
+local GamesSection = ScriptsTab:createsection({
 Name = "Games"
 })
 
 --create page--
 
-local page1 = Games:createpage()
+local page1 = GamesSection:createpage()
 
 --create label--
 
