@@ -244,6 +244,26 @@ Page1:Button({
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
 
+Page1:Button({
+	Title = "Universal UI",
+	Mode = "Defualt",
+	AutoSize = false,
+	callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MappleGaming208/Discord-Library/main/UniversalUI.lua"))()
+        wait()
+        wait()
+        wait()
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+            Title = "Notification!";
+            Text = "Code Executed!";
+            Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+        Duration = 16;
+
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+
+
 Page1:Modal({
 	Title = "Fully Made By @MappleGaming208"
 })
