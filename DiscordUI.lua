@@ -1,58 +1,77 @@
 --Made By MappleGaming208--
 --Loadstring & Toggle UI--
 --RoyalUI By MappleGaming208--
---tab1=scripts--
---section1=Games--
---page1=page--
---label1=a--
+
 _G.Settings = {
 	UI = {
 		Key = Enum.KeyCode.RightControl,
 	}
 }
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MappleGaming208/Discord-Library/main/Library"))()
-
---Create UI Library Window--
-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
 local main = Library:create({
-	Name = "RoyalUI"
+	Name = "Xova's Team"
 })
-
---Create Tab--
-
-local ScriptsTab = main:createtab({
-	Name = "Scripts"
+local tab = main:createtab({
+	Name = "Tab"
 })
-
---Create Section--
-
-local GamesSection = ScriptsTab:createsection({
-Name = "Games"
+local section = tab:createsection({
+Name = "Section"
 })
-
---create page--
-
-local page1 = GamesSection:createpage()
-
---create label--
-
-Label1 = page1:Label({
-	Title = "RoyalUI",
+local page = section:createpage()
+a = page:Label({
+	Title = "Xova's Team",
 })
 -- Functions
 -- a:Update("Xova's Team Best UI")
-
---Create Button--
---[[
-page1:Button({
+page:Button({
 	Title = "Refresh Label",
 	Mode = "Defualt",
 	AutoSize = true,
 	callback = function()
-	Library:Notification("Notification", "Executed!", "Okay!")
-		end)
 
 	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
-]]--
+page:Toggle({
+	Title = "Toggle By Xova's Team",
+	Default = true,
+	callback = function(v)
+		print(v)
+	end,
+})
+page:SelectChoice({
+	Item = {"Dark","Sun"},
+	Default = "Sun",
+	callback = function(v)
+		print(v)
+	end,
+})
+b = page:Dropdown({
+	Title = "Dropdown",
+	Item = {1,2,3,4,5},
+	Default = 1,
+	callback = function(v)
+		print(v)
+	end,
+})
+-- Functions
+-- b:Add(math.random(0,555))
+-- b:Clear()
+c = page:Slider({
+	Title = "Slider",
+	Min = 0,
+	Max = 500,
+	Default = 10,
+	Dec = true,
+	callback = function(v)
+		print(v)
+	end,
+	
+})
+-- Functions
+-- c:Update(50)
+page:Line()
+page:Modal({
+	Title = "Modal"
+})
