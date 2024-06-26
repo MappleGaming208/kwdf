@@ -1,9 +1,7 @@
-
---[[Currently enabled]]--
 --Made By MappleGaming208--
 --Loadstring & Toggle UI--
 --RoyalUI By MappleGaming208--
---tab1=scriptstab--
+--tab1=scripts--
 --section1=Games--
 --page1=page--
 --label1=a--
@@ -18,32 +16,29 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mappl
 --Create UI Library Window--
 
 local main = Library:create({
-	Name = "Xova's Team"
+	Name = "RoyalUI"
 })
 
 --Create Tab--
 
-local tab = main:createtab({
-	Name = "Tab"
+local Scripts = main:createtab({
+	Name = "Scripts"
 })
 
 --Create Section--
 
-local section = tab:createsection({
-Name = "Section"
+local Games = Scripts:createsection({
+Name = "Games"
 })
 
 --create page--
 
-local page = section:createpage()
+local page1 = Games:createpage()
 
 --create label--
---[[ currently disabled
+
 Label1 = page1:Label({
 	Title = "RoyalUI",
 })
 -- Functions
 -- a:Update("Xova's Team Best UI")
-]]--
-
-
