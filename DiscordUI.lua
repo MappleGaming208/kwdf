@@ -42,3 +42,15 @@ Label1 = page1:Label({
 })
 -- Functions
 -- a:Update("Xova's Team Best UI")
+
+--Create Button--
+
+page1:Button({
+	Title = "Refresh Label",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
