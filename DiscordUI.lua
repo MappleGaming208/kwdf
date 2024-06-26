@@ -37,7 +37,7 @@ local page1 = section:createpage()
 
 --create label--
 
-Label1 = page:Label({
+Label1 = page1:Label({
 	Title = "RoyalUI",
 })
 -- Functions
