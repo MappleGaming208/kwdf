@@ -187,6 +187,25 @@ Page1:Button({
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
 
+Page1:Button({
+	Title = "F3XBtools",
+	Mode = "Defualt",
+	AutoSize = false,
+	callback = function()
+        loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+        wait()
+        wait()
+        wait()
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+            Title = "Notification!";
+            Text = "Code Executed!";
+            Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+        Duration = 16;
+
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+
 Page1:Modal({
 	Title = "Fully Made By @MappleGaming208"
 })
