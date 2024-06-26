@@ -18,12 +18,12 @@ local main = Library:create({
 --Create Tab--
 
 local tab = main:createtab({
-	Name = "Tab1"
+	Name = "Scripts"
 })
 
 --Create Section--
 
 local section = tab:createsection({
-Name = "Section"
+Name = "Games"
 })
 
