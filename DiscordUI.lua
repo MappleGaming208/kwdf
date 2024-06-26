@@ -36,10 +36,11 @@ Name = "Games"
 local page1 = Games:createpage()
 
 --create label--
-
+--[[ currently disabled
 Label1 = page1:Label({
 	Title = "RoyalUI",
 })
 -- Functions
 -- a:Update("Xova's Team Best UI")
+]]--
 
