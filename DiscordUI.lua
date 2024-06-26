@@ -27,13 +27,13 @@ local Scripts = main:createtab({
 
 --Create Section--
 
-local Games = tab:createsection({
+local Games = Scripts:createsection({
 Name = "Games"
 })
 
 --create page--
 
-local page1 = section:createpage()
+local page1 = Games:createpage()
 
 --create label--
 
