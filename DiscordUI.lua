@@ -1,3 +1,8 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/main/Discord%20Ui%20Lib/Example.lua"))()
+
+
+
+--[[Currently Disabled
 --Made By MappleGaming208--
 --Loadstring & Toggle UI--
 --RoyalUI By MappleGaming208--
@@ -43,4 +48,5 @@ Label1 = page1:Label({
 -- Functions
 -- a:Update("Xova's Team Best UI")
 ]]--
+ --[[]]--
 
