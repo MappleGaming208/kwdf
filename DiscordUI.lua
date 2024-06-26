@@ -1,7 +1,7 @@
 --Made By MappleGaming208--
 --Loadstring & Toggle UI--
 --RoyalUI By MappleGaming208--
---tab1=scripts--
+--tab1=scriptstab--
 --section1=Games--
 --page1=page--
 --label1=a--
@@ -21,19 +21,19 @@ local main = Library:create({
 
 --Create Tab--
 
-local Scripts = main:createtab({
+local ScriptsTab = main:createtab({
 	Name = "Scripts"
 })
 
 --Create Section--
 
-local Games = Scripts:createsection({
+local GamesSection = ScriptsTab:createsection({
 Name = "Games"
 })
 
 --create page--
 
-local page1 = Games:createpage()
+local page1 = GamesTab:createpage()
 
 --create label--
 --[[ currently disabled
