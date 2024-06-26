@@ -1,6 +1,9 @@
 --Made By MappleGaming208--
 --Loadstring & Toggle UI--
 --RoyalUI By MappleGaming208--
+--tab1=scripts--
+--section1=Games--
+--page1=page--
 _G.Settings = {
 	UI = {
 		Key = Enum.KeyCode.RightControl,
@@ -17,13 +20,16 @@ local main = Library:create({
 
 --Create Tab--
 
-local tab = main:createtab({
+local Scripts = main:createtab({
 	Name = "Scripts"
 })
 
 --Create Section--
 
-local section = tab:createsection({
+local Games = tab:createsection({
 Name = "Games"
 })
 
+--create page--
+
+local page1 = section:createpage()
