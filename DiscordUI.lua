@@ -38,7 +38,7 @@ a = Page1:Label({
 Page1:Button({
 	Title = "MobileFly",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MappleGaming208/Discord-Library/main/mfly.lua"))()
         wait()
@@ -57,7 +57,7 @@ Page1:Button({
 Page1:Button({
 	Title = "Speed Gui",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MappleGaming208/Discord-Library/main/speedgui.lua"))()
         wait()
@@ -76,7 +76,7 @@ Page1:Button({
 Page1:Button({
 	Title = "GhostHub",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet("https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua"))()
         wait()
@@ -95,7 +95,7 @@ Page1:Button({
 Page1:Button({
 	Title = "SerenadeHub",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/4xdhondiscord/SerenadeHub/main/Serenade", true))()
         wait()
@@ -114,7 +114,7 @@ Page1:Button({
 Page1:Button({
 	Title = "EzLauncher",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
         wait()
@@ -133,7 +133,7 @@ Page1:Button({
 Page1:Button({
 	Title = "UnFairHub",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua'),true))()
         wait()
@@ -152,7 +152,7 @@ Page1:Button({
 Page1:Button({
 	Title = "UnKnownHubX",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Zombie-Attack'))()
         wait()
@@ -171,7 +171,7 @@ Page1:Button({
 Page1:Button({
 	Title = "ZombieAttackByTeamPoison",
 	Mode = "Defualt",
-	AutoSize = true,
+	AutoSize = false,
 	callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/MappleGaming208/Discord-Library/main/ZombieAttackTEAMP.lua'))()
         wait()
