@@ -4,6 +4,7 @@
 --tab1=scripts--
 --section1=Games--
 --page1=page--
+--label1=a--
 _G.Settings = {
 	UI = {
 		Key = Enum.KeyCode.RightControl,
@@ -33,3 +34,12 @@ Name = "Games"
 --create page--
 
 local page1 = section:createpage()
+
+--create label--
+
+Label1 = page:Label({
+	Title = "RoyalUI",
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+
