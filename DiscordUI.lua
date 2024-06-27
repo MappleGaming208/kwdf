@@ -36,6 +36,25 @@ a = Page1:Label({
 })
 
 Page1:Button({
+	Title = "KeyboardMobile(ctrl to toggle ui)",
+	Mode = "Defualt",
+	AutoSize = false,
+	callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+        wait()
+        wait()
+        wait()
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+            Title = "Notification!";
+            Text = "Code Executed!";
+            Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+        Duration = 16;
+
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+
+Page1:Button({
 	Title = "MobileFly",
 	Mode = "Defualt",
 	AutoSize = false,
